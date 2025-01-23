@@ -1,0 +1,13 @@
+// Helper function to calculate the sum of an array
+function sumArray(arr) {
+    return arr.reduce((acc, num) => acc + num, 0);
+}
+
+// Main function to display the sum
+function displaySum(arr) {
+    const sum = sumArray(arr);
+    console.log(`The sum of the array is: ${sum}`);
+}
+
+// Example usage
+displaySum([1, 2, 3, 4, 5]); // Output: The sum of the array is: 15

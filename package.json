@@ -1,0 +1,24 @@
+{
+  "name": "doublicate",
+  "version": "1.0.0",
+  "description": "Project for helping",
+  "homepage": "https://github.com/Saturn119/Doublicate#readme",
+  "bugs": {
+    "url": "https://github.com/Saturn119/Doublicate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Saturn119/Doublicate.git" 
+  },
+  "dependencies": {
+    "colissmo": "1.0.0",
+    "minti_fulkerson": "0.1.4"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
